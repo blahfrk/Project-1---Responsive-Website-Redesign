@@ -1,0 +1,200 @@
+/* Large screens (MacBook Pro 1440x900) */
+@media (max-width: 1440px) {
+    .custom-main-container {
+        padding: 0 15vh;
+    }
+    
+    .navbar {
+        padding: 0 15vh;
+    }
+
+    .navbar-toggler-icon { 
+        width: 30px !important; 
+        height: 30px !important; 
+    }
+
+    .custom-hero {
+        margin-top: 12rem;
+        margin-bottom: 8rem;
+    }
+
+}
+
+/* Medium screens (iPad 768x1024) */
+@media (max-width: 768px) {
+    .custom-main-container {
+        padding: 0 5vh !important;
+    }
+    
+    .navbar {
+        padding: 0 !important;
+    }
+
+    .navbar-toggler-icon { 
+        width: 25px !important; 
+        height: 25px !important;
+    }
+
+    .custom-hero {
+        margin-top: 8rem !important;
+        margin-bottom: 4rem !important;
+    }
+
+    .hero-custom-button {
+        margin-top: 0 !important;
+    }
+}
+
+/* Small screens (iPhone 13 Pro Max 428x926) */
+@media (max-width: 428px) {
+    .custom-main-container {
+        padding: 0 1.3rem !important;
+    }
+    
+    .navbar {
+        padding: 0 0.5rem !important;
+    }
+
+    .navbar-toggler-icon { 
+        width: 20px !important; 
+        height: 20px !important; 
+    }
+
+    .custom-hero {
+        margin-top: 7rem !important;
+        margin-bottom: 3rem !important;
+    }
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.custom-main-container {
+    padding: 0 15vh;
+}
+
+.navbar {
+    padding: 0 15vh;
+}
+
+.nav-item, .nav-link {
+    font-weight: 400;
+    font-size: clamp(0.6rem, 2vw, 1.1rem);
+}
+
+.custom-contact {
+    font-weight: 600;
+    font-size: clamp(0.6rem, 2vw, 1rem) !important;
+    text-decoration: none !important;
+}
+
+.nav-link:hover {
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: rgb(8, 68, 8) !important;
+    text-underline-offset: 5px;
+}
+
+.navbar-toggler-icon { 
+    width: 30px; 
+    height: 30px; 
+}
+
+.navbar-toggler {
+    padding: 5px 10px;
+}
+
+.navbar-collapse .nav-link {
+    padding: 5px 15px; 
+}
+
+
+.hero-title {
+    font-size: clamp(2.4rem, 5vw, 5rem);
+    font-weight: 800;
+    margin-bottom: 0;
+    letter-spacing: 0.5px;
+    line-height: 1 !important;
+}
+
+.custom-hero {
+    margin-top: 12rem;
+    margin-bottom: 8rem;
+}
+
+.hero-green-text {
+    background: linear-gradient(130deg, #28a745, #218838, #1e7e34);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-custom-button {
+    padding: 0.25rem 1.5rem;
+    font-size: clamp(0.5rem, 1.5vw, 1.2rem);
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    margin-top: 1rem;
+}
+
+.bg-warning {
+    background-color: rgba(252, 233, 191, 0.781) !important;
+}
+
+.bg-danger {
+    background-color: rgba(252, 191, 191, 0.781) !important;
+}
+
+.bg-primary {
+    background-color: rgba(191, 227, 252, 0.781) !important;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: clamp(1.2rem, 2.1vw, 1.5rem);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.card-text {
+    font-size: clamp(1rem, 2.1vw, 1.2rem);
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.card-no-border {
+    border: none !important;
+}
+
+.custom-container-inq {
+    background-color: rgba(191, 252, 211, 0.781) !important;
+}
+
+.custom-inquiry {
+    font-weight: 800;
+    font-size: clamp(1rem, 3.5vw, 3rem);
+}
+
+.custom-par-inq {
+    font-size: clamp(0.8rem, 2.1vw, 1.2rem);
+    font-weight: 400;
+    line-height: 1.2;
+    color: rgb(80, 80, 80);
+}
+
+.footer-bg {
+    background-color: #e5e5e5 !important;
+}
+
+.footer-par {
+    color: rgb(0, 0, 0);
+    font-size: clamp(0.6rem, 1.5vw, 1rem);
+    font-weight: 300;
+    line-height: 1;
+}
